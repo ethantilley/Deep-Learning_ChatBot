@@ -14,7 +14,7 @@ This project I'm starting is going to eventually a chat bot. But for now im goin
 ## Why
 Building this project in efforts to learn how to manipulate data and feed it onto a mechine learning agent.
 
-## Authers
+## Authors
 
 * **Ethan Tilley** - *Solo Developer* - [@EthanTilley_](https://twitter.com/EthanTilley_)
 
