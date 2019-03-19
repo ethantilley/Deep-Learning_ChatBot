@@ -19,6 +19,7 @@ Building this project in efforts to learn how to manipulate data and feed it ont
 * **Ethan Tilley** - *Solo Developer* - [@EthanTilley_](https://twitter.com/EthanTilley_)
 
 ## Goals With This Project
-- [ ] Structure The data
-- [ ] Clean The Data
+- [X] Structure The data
+- [X] Clean The Data
+- [ ] Pair The Data (Question/Statement - Responce) 
 - [ ] Build the AI agent to feed the data for training
