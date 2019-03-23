@@ -5,7 +5,7 @@ from datetime import datetime
 timeframe = '2015-01'
 sql_transaction = []
 
-connection = sqlite3.connect('{}.db'.format(timeframe))
+connection = sqlite3.connect('../../../Data To Ignore/Data/SQL Table/{}.db'.format(timeframe))
 c = connection.cursor()
 
 def create_table():
@@ -90,7 +90,7 @@ if __name__ == '__main__':
     row_counter = 0
     paired_rows = 0
 
-    with open("C:\Repositories\Deep-Learning_ChatBot\Raw Data/RC_2015-01".format(timeframe.split('-')[0], timeframe), buffering=1000) as f:
+    with open("../../../Data To Ignore/Data/Raw Data/RC_2015-01".format(timeframe.split('-')[0], timeframe), buffering=1000) as f:
         for row in f:
             row_counter += 1
             row = json.loads(row)
